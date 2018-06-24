@@ -1,0 +1,390 @@
+{"title": {
+    "multi": "The world of candy",
+"de": "Die Welt der Süßigkeiten"
+}, "scale": "off", "scale_width": "", "color_upper_scrollbar": "#8296a5", "color_bottom_scrollbar": "", "eventmarker_bg_active": "", "eventmarker_bg_inactive": "", "eventmarker_bg_neighbour": "", "effect_duration": "400",
+    "xtcore_metrics": {
+        "enabled": "false",
+        "language_ids": {
+        },
+        "init_vars": {
+        },
+        "main_script_url": "",
+        "xt_med_args_eventclick": [ ],
+        "xt_med_args_elementclick": [ ],
+        "eventclick_enabled": "true",
+        "elementclick_enabled": "true"
+    },
+    "intro": {
+    "title": {
+        "multi": "A clickable media gallery",
+"de": "Eine Mediengalerie zum Klicken"
+    },
+    "teaser_text": {
+        "multi": "This is a small demo",
+"de": "Dies ist ein kleines Beispiel"
+    },
+    "preview_picture": {
+        "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/001.png",
+"de": "http://localhost/dw_timeline_classic-master/demo_cases/candy/001_german.png"
+    },
+    "mode": "panorama",
+    "elements": [],
+        "xtcore_options": {
+        }
+}, "events": [
+    {
+        "title": {
+            "multi": "Sweets are various",
+"de": "Sie sind vielseitig"
+        },
+        "teaser_text": {
+            "multi": "They can resemble a lot",
+"de": "Formen und Farben"
+        },
+        "preview_picture": {
+            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/002.png"
+        },
+        "elements": [
+            {
+                "type": "image",
+                "url": {
+                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/002.png"
+                },
+                "topic_header_text": {
+                    "multi": "Caption title",
+"de": "Titelzeile"
+                },
+                "title": {
+                    "multi": "Sweets are various",
+"de": "Süßigkeiten sind vielseitig"
+                },
+                "description": {
+                    "multi": "They can resemble a lot. If they all loked the same, people would realize that they taste almost the same, no matter what size or colour they have.",
+"de": "Sie können vieles darstellen. Wenn sie alle gleich aussähren, würden die Leute schließlich erkennen, dass sie fast gleich schmecken, egal welche Größe oder Farbe sie haben."
+                },
+                "xtcore_options": {
+                    "element_name": "Element 1"
+                }
+            }
+        ],
+        "resources": [],
+        "xtcore_options": {
+        }
+    },
+    {
+        "title": {
+            "multi": "Out of the box",
+"de": "Aus dem Karton"
+        },
+        "teaser_text": {
+            "multi": "Sweets for takeaway",
+"de": "Süßes zum Mitnehmen"
+        },
+        "preview_picture": {
+            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/003.png"
+        },
+        "elements": [
+            {
+                "type": "image",
+                "url": {
+                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/003.png"
+                },
+                "topic_header_text": {
+                    "multi": "Fast food"
+                },
+                "title": {
+                    "multi": "Out of the box",
+"de": "Aus dem Karton"
+                },
+                "description": {
+                    "multi": "Some people need a quick surprise for their loved ones. Luckily, there are stores that offer sweet food for takeaway - nicely assembled in a box.",
+"de": "Manche Menschen brauchen eine schnelle Überraschung für ihre Lieben. Glücklicherweise gibt es Geschäfte, die süße Speisen zum Mitnehmen anbieten - schön zusammengestellt in einem Karton."
+                },
+                "xtcore_options": {
+                }
+            }
+        ],
+        "resources": [],
+        "xtcore_options": {
+        }
+    },
+    {
+        "title": {
+            "multi": "It's your choice",
+"de": "Deine Entscheidung"
+        },
+        "teaser_text": {
+            "multi": "Get lost in sugar",
+"de": "Verlier dich im Zucker"
+        },
+        "preview_picture": {
+            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/004.png"
+        },
+        "elements": [
+            {
+                "type": "image",
+                "url": {
+                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/004.png"
+                },
+                "topic_header_text": {
+                    "multi": "Industrial production",
+"de": "Industrielle Fertigung"
+                },
+                "title": {
+                    "multi": "It's your choice",
+"de": "Du musst entscheiden"
+                },
+                "description": {
+                    "multi": "As creating sweets has become an industry, a lot of vendors and large companies are competing for the highest revenue.",
+"de": "Weil die Herstellung von Süßigkeiten zu einer Industrie geworden ist, konkurrieren viele Anbieter und große Unternehmen um die höchsten Einnahmen."
+                },
+                "xtcore_options": {
+                }
+            }
+        ],
+        "resources": [],
+        "xtcore_options": {
+            "event_name": "Event 2"
+        }
+    },
+    {
+        "title": {
+            "multi": "Donuts"
+        },
+        "teaser_text": {
+            "multi": "Circles of pleasure",
+"de": "Kreise der Versuchung"
+        },
+        "preview_picture": {
+            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/005.png"
+        },
+        "elements": [
+            {
+                "type": "image",
+                "url": {
+                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/005.png"
+                },
+                "topic_header_text": {
+                    "multi": "Circles of pleasure",
+"de": "Kreise der Versuchung"
+                },
+                "title": {
+                    "multi": "Donuts"
+                },
+                "description": {
+                    "multi": "Homer Simpson knows why they are his favourite sweets: They are perfect in size, while containing a lot of energy. This makes sense since Homer is always working hard to compensate his food consumption.",
+"de": "Homer Simpson weiß, warum sie seine Lieblingssüßigkeiten sind: Sie sind perfekt in der Größe und enthalten viel Energie. Das macht Sinn, da Homer natürlich immer hart arbeitet, um seinen Verzehr zu kompensieren."
+                },
+                "xtcore_options": {
+                    "element_name": "Element 1"
+                }
+            }
+        ],
+        "resources": [],
+        "xtcore_options": {
+            "event_name": "Event 3"
+        }
+    },
+    {
+        "title": {
+            "multi": "Custom combination",
+"de": "Eigene Auswahl"
+        },
+        "teaser_text": {
+            "multi": "Choose wisely",
+"de": "Wähle mit Bedacht"
+        },
+        "preview_picture": {
+            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/006.png"
+        },
+        "elements": [
+            {
+                "type": "image",
+                "url": {
+                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/006.png"
+                },
+                "topic_header_text": {
+                    "multi": "Choose wisely",
+"de": "Wähle mit Bedacht"
+                },
+                "title": {
+                    "multi": "Custom combination",
+"de": "Eigene Zusammenstellung"
+                },
+                "description": {
+                    "multi": "Some stores focus on the sweet experience: They let their customers pick an envelope and fill it with their favourite candy. Similar to a salad bar, only without the healthy aspect.",
+"de": "Einige Läden konzentrieren sich auf das süße Erlebnis: Sie lassen ihre Kunden eine Tütchen nehmen und es mit ihren Lieblingssüßigkeiten befüllen. Ähnlich einer Salatbar, nur ohne den gesunden Aspekt."
+                },
+                "xtcore_options": {
+                    "element_name": "Element 1"
+                }
+            }
+        ],
+        "resources": [],
+        "xtcore_options": {
+            "event_name": "Event 4"
+        }
+    },
+    {
+        "title": {
+            "multi": "Want some more?",
+"de": "Noch etwas mehr?"
+        },
+        "teaser_text": {
+            "multi": "Extra sugar addition",
+"de": "Die Extraportion Zucker"
+        },
+        "preview_picture": {
+            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/007.png"
+        },
+        "elements": [
+            {
+                "type": "image",
+                "url": {
+                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/007.png"
+                },
+                "topic_header_text": {
+                    "multi": "Extra sugar addition",
+"de": "Die Extraportion Zucker"
+                },
+                "title": {
+                    "multi": "Want some more?",
+"de": "Etwas mehr vielleicht?"
+                },
+                "description": {
+                    "multi": "Some sweets are not only containing sugar, but they are also wrapped in sugar on the outside. Why is a mystery to some - but it sells.",
+"de": "Einige Süßigkeiten enthalten nicht nur Zucker, sondern sind auch außen mit Zucker umhüllt. Warum, das bleibt ein Geheimnis - aber es verkauft sich offenbar."
+                },
+                "xtcore_options": {
+                    "element_name": "Element 1"
+                }
+            }
+        ],
+        "resources": [],
+        "xtcore_options": {
+            "event_name": "Event 5"
+        }
+    },
+    {
+        "title": {
+            "multi": "Hard or soft",
+"de": "Hart oder weich"
+        },
+        "teaser_text": {
+            "multi": "Taste is not everything",
+"de": "Geschmack ist nicht alles"
+        },
+        "preview_picture": {
+            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/008.png"
+        },
+        "elements": [
+            {
+                "type": "image",
+                "url": {
+                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/008.png"
+                },
+                "topic_header_text": {
+                    "multi": "Taste is not everything",
+"de": "Geschmack ist nicht alles"
+                },
+                "title": {
+                    "multi": "Hard or soft",
+"de": "Hart oder weich"
+                },
+                "description": {
+                    "multi": "Consistency matters: Whether or not an individual prefers a certain kind of candy depends not only on how it tastes, but also on how it feels while enjoying it. Food labs around the globe are constantly on the hunt for innovative and surprising feelings.",
+"de": "Konsistenz zählt: Ob eine Person eine bestimmte Art von Süßigkeit bevorzugt oder nicht, hängt nicht nur davon ab, wie diese schmeckt, sondern auch davon, wie sie sich anfühlt, wenn man sie genießt. Nahrungslabore rund um den Globus sind ständig auf der Suche nach innovativen und überraschenden Gefühlserlebnissen."
+                },
+                "xtcore_options": {
+                    "element_name": "Element 1"
+                }
+            }
+        ],
+        "resources": [],
+        "xtcore_options": {
+            "event_name": "Event 6"
+        }
+    },
+    {
+        "title": {
+            "multi": "A sub-gallery",
+"de": "Eine Unter-Galerie"
+        },
+        "teaser_text": {
+            "multi": "Several images at once",
+"de": "Mehrere Bilder auf einmal"
+        },
+        "preview_picture": {
+            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/009.png"
+        },
+        "elements": [
+            {
+                "type": "image",
+                "url": {
+                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/009.png"
+                },
+                "topic_header_text": {
+                    "multi": "Several images at once",
+"de": "Mehrere Bilder auf einmal"
+                },
+                "title": {
+                    "multi": "A sub-gallery",
+"de": "Eine Unter-Galerie"
+                },
+                "description": {
+                    "multi": "If you like, you may bundle several media elements into a gallery of its own. Just fill the array of elements in your JSON data file accordingly.",
+"de": "Wenn du möchtest, kannst du mehrere Medienelemente in einer eigenen Galerie bündeln. Befülle dazu einfach das Array der Elemente in deiner JSON-Datei entsprechend."
+                },
+                "xtcore_options": {
+                    "element_name": "Element 1"
+                }
+            },
+            {
+                "type": "image",
+                "url": {
+                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/010.png"
+                },
+                "topic_header_text": {
+                    "multi": "Product strategy",
+"de": "Produktstrategie"
+                },
+                "title": {
+                    "multi": "Part of the portfolio",
+"de": "Nur ein Teil des Portfolios"
+                },
+                "description": {
+                    "multi": "While some stores focus on candy completely, most offer it as a dessert or colourful addition. Since healthy eating has become a lifestyle in recent years, sweets are not the cash cow of most stores.",
+"de": "Während einige Geschäfte sich auf Süßigkeiten konzentrieren, bieten die meisten sie als Dessert oder als bunte Ergänzung an. Da gesundes Essen in den letzten Jahren zu einem Lebensstil geworden ist, sind Süßigkeiten in den meisten Geschäften nicht die Haupteinnahmequelle."
+                },
+                "xtcore_options": {
+                    "element_name": "Element 2"
+                }
+            },
+            {
+                "type": "image",
+                "url": {
+                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/011.png"
+                },
+                "topic_header_text": {
+                    "multi": "More donuts",
+"de": "Noch mehr Donuts"
+                },
+                "title": {
+                    "multi": "Are you hungry already?",
+"de": "Und, bist du schon hungrig?"
+                },
+                "description": {
+                    "multi": "Beware: Consume responsibly. Doctors around the globe have found proof that too much sugar can do harm to your body in many nasty ways.",
+"de": "Vorsicht: Nicht zu viel naschen. Ärzte auf der ganzen Welt haben Beweise dafür gefunden, dass zu viel Zucker deinem Körper auf vielfache Weise schaden kann."
+                },
+                "xtcore_options": {
+                    "element_name": "Element 2"
+                }
+            }
+        ],
+        "resources": [],
+        "xtcore_options": {
+            "event_name": "Event 11"
+        }
+    }
+], "padding_left": "", "padding_right": ""}

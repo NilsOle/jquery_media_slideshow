@@ -1,0 +1,620 @@
+#mytimeline {
+
+}
+
+/* Replace the last selector for the type of element you have in
+   your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
+   if you have links use #makeMeScrollable div.scrollableArea a and so on. */
+
+/* Invisible left hotspot */
+div.scrollingHotSpotLeft {
+    /* The hotspots have a minimum width of 100 pixels and if there is room the will grow
+    and occupy 15% of the scrollable area (30% combined). Adjust it to your own taste. */
+    min-width: 1px;
+    width: 5%;
+    z-index: 7;
+}
+
+/* Invisible right hotspot */
+div.scrollingHotSpotRight {
+    min-width: 1px;
+    width: 5%;
+    z-index: 7;
+}
+
+.teaserContentWrap .myGalleryNavigation {
+    overflow: hidden;
+    width: 105px;
+    height: 30px;
+    margin-left: 40px;
+    position: absolute;
+    top: 369px;
+    display: block;
+}
+
+.teaserContentWrap .myGalleryNavigation .numbersInRow {
+    position: absolute;
+    top: -61px;
+    left: 0;
+    width: 126px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top:16px;
+    margin-bottom: 16px;
+}
+
+.teaserContentWrap .myGalleryNavigation .numbersInRow li {
+    display: inline-block;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #777777;
+    margin-right: 7px;
+    position: relative;
+    left: 0px;
+    cursor: pointer;
+    /*display: list-item;*/
+    text-align: -webkit-match-parent;
+}
+
+.teaserContentWrap .myGalleryNavigation .numbersInRow li.active {
+    color: #000000;
+}
+
+.teaserContentWrap .startSlideshow {
+    background: url('../images/navItems/arrowForward.png');
+    width: 9px;
+    height: 10px;
+    position: absolute;
+    top: 369px;
+    left: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+.teaserContentWrap .goStartSlideshow {
+    background: url('../images/navItems/arrowStart.png');
+    width: 14px;
+    height: 12px;
+    position: absolute;
+    top: 369px;
+    right: 60px;
+    cursor: pointer;
+    display: block;
+}
+
+.teaserContentWrap .goEndSlideshow {
+    background: url('../images/navItems/arrowEnd.png');
+    width: 14px;
+    height: 12px;
+    position: absolute;
+    top: 369px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.teaserContentWrap .goNextSlideshow {
+    background: url('../images/navItems/arrowForward.png');
+    width: 9px;
+    height: 10px;
+    position: absolute;
+    top: 370px;
+    right: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.teaserContentWrap .goBackSlideshow {
+    background: url('../images/navItems/arrowBack.png');
+    width: 9px;
+    height: 10px;
+    position: absolute;
+    top: 370px;
+    right: 45px;
+    cursor: pointer;
+    display: block;
+}
+
+.teaserContentWrap {
+
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    width: 230px;
+    height: 374px;
+    overflow: hidden;
+    text-align: left;
+    padding-right: 10px;
+    padding-top: 20px;
+
+    background: transparent;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(244, 244, 244, 0.6);
+}
+
+.teaserContentWrap .imageHeadline {
+    color: #3E3E3E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.teaserContentWrap .imageDescription {
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+
+
+.teaserContentWrap .imageRessource {
+    color: #3E3E3E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #3E3E3E;
+    position: relative;
+    left: 0;
+}
+
+.teaserContentWrap .imageRessource[data-dw-status="active"] {
+    color: white;
+    background-color: #3E3E3E;
+}
+
+/*.teaserContentWrap .imageRessource[data-dw-status="active"]:after {
+    padding: 0;
+    margin: 0;
+    left: -39px;
+    top: 4px;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    /*border-color: rgba(136, 183, 213, 0);*/
+/*    border-right-color: #3E3E3E;
+    border-width: 19px;
+    z-index: 2;
+}*/
+
+.teaserContentWrap .imageRessource span.header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.teaserContentWrap .imageRessource span.title {
+    margin-top: 5px;
+    display: block;
+}
+
+.teaserContentWrap .imageRessource span.icon {
+    min-height: 1em;
+    padding-left: 18px;
+    white-space: nowrap;
+}
+
+.teaserContentWrap .imageRessource.video span.icon {
+    background: url(../images/i-solo-grau3e.png) 0 -105px no-repeat;
+}
+
+.teaserContentWrap .imageRessource[data-dw-status="active"].video span.icon {
+    background: url(../images/i-solo-weiss.png) 0 -105px no-repeat;
+}
+
+.teaserContentWrap .imageRessource.audio span.icon {
+    background: url(../images/i-solo-grau3e.png) 0 -405px no-repeat;
+}
+
+.teaserContentWrap .imageRessource[data-dw-status="active"].audio span.icon {
+    background: url(../images/i-solo-weiss.png) 0 -405px no-repeat;
+}
+
+.teaserContentWrap .imageRessource.external span.icon {
+    background: url(../images/i-solo-grau3e.png) 0 -2204px no-repeat;
+}
+
+.teaserContentWrap .imageRessource[data-dw-status="active"].external span.icon {
+    background: url(../images/i-solo-weiss.png) 0 -2204px no-repeat;
+}
+
+.teaserContentWrap .topicHeader {
+    color: #00468F;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+/*.teaserContentWrap h2,h4,p,a {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+
+.interval_element {
+
+    background: transparent;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    display: block;
+    position: absolute;
+    top: 0px;
+
+}
+
+.interval_element_dark, #mytimeline {
+    background: transparent;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    display: block;
+
+}
+
+.interval_element a {
+    color: white;
+    text-decoration: none;
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+    top: 20px;
+    left: -18px;
+    display: block;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+}
+
+.interval_element_dark a {
+    color: white;
+    text-decoration: none;
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+    top: 20px;
+    left: -18px;
+    display: block;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------*/
+div#mytimeline {
+    background-image: url(../images/background_timeline.png);
+    height: 65px;
+    width: 940px;
+    overflow: hidden;
+    border: 0;
+    position: absolute;
+    left: 0;
+    top: 459px;
+    z-index: 3;
+    opacity: 1;
+}
+
+div#mytimeline div.TimeMarker {
+    position: absolute;
+    top: 5px;
+    height: 46px;
+    border-left: 1px solid #9B9B9B;
+    padding-left: 9px;
+    z-index:5;
+    padding-right:0;
+    padding-top: 5px;
+    padding-bottom:0;
+}
+
+div#mytimeline div.TimeMarker span {
+    color: #9B9B9B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    display: block;
+}
+
+div#mytimeline div.TimeMarker span.upper {
+    font-size: 11px;
+    color:#D7D3CD;
+}
+
+div#mytimeline div.TimeMarker span.lower {
+    font-size: 30px;
+    color:#E6E3E0;
+    font-weight:bold;
+    position: relative;
+    top: -3px;
+}
+
+div#mytimeline a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#mytimeline div.limiter{
+    display: block;
+    position:absolute;
+    top:0;
+    width:50px;
+    height: 65px;
+    background-image: url('../images/bg_timeline_limiter.png');
+    z-index:4;
+}
+
+div#mytimeline div[data-dw-status] {
+    position: absolute;
+    top: 37px;
+    background-image: url('../images/eventmarker_inactive.png');
+    background-repeat: no-repeat;
+    z-index: 6;
+}
+
+div#mytimeline div[data-dw-status="inactive"] {
+    background-image: url('../images/eventmarker_inactive.png');
+}
+
+div#mytimeline div[data-dw-status="active"] {
+    background-image: url('../images/eventmarker_active.png');
+}
+
+div#mytimeline div[data-dw-status="left"],
+div#mytimeline div[data-dw-status="right"] {
+    background-image: url('../images/eventmarker_neighbour.png');
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------*/
+#event_caroussell_foreground {
+    height: 65px;
+    width: 940px;
+    overflow: hidden;
+    /*border:1px solid red;*/
+    position: absolute;
+    left: 0;
+    top: 394px;
+    z-index: 5;
+    opacity: 1;
+}
+
+#event_caroussell_foreground a {
+    display: block;
+    text-decoration: none;
+}
+
+#event_caroussell_foreground a div {
+    height: 60px;
+    position: relative;
+    top: 5px;
+    float: left;
+    background-image: url('../images/empty.gif');
+}
+
+#event_caroussell_foreground a div[data-dw-position="0"][data-dw-status="inactive_small"],
+#event_caroussell_foreground a div[data-dw-position="4"][data-dw-status="inactive_small"] /*position0, klein inaktiv*/
+{
+    width: 21px;
+}
+
+#event_caroussell_foreground a div[data-dw-position="0"] {
+    left: 0;
+}
+
+#event_caroussell_foreground a div[data-dw-position="0"][data-dw-status="inactive_large"], /*position0, klein inaktiv*/
+#event_caroussell_foreground a div[data-dw-position="4"][data-dw-status="inactive_large"] {
+    width: 42px;
+}
+
+#event_caroussell_foreground a div[data-dw-position="0"][data-dw-status="hidden"], /*position0, klein inaktiv*/
+#event_caroussell_foreground a div[data-dw-position="4"][data-dw-status="hidden"] /*position0, klein inaktiv*/
+{
+    width: 0; /* TODO: Reicht das so? Oder lieber komplett verstecken?? */
+}
+
+#event_caroussell_foreground a div[data-dw-position="1"],
+#event_caroussell_foreground a div[data-dw-position="2"],
+#event_caroussell_foreground a div[data-dw-position="3"] {
+    width: 298px; /* TODO optimieren */
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------*/
+
+div#event_caroussell_background {
+    background: url(./dist/images/background_caroussell.png) repeat-x scroll 0 14px;
+    height: 79px;
+    width: 940px;
+    padding: 0 /* 321px*/;
+    overflow: hidden;
+    /*border:1px solid red;*/
+    position: absolute;
+    left: 0;
+    top: 380px;
+    z-index: 3;
+    opacity: 1;
+}
+
+div#event_caroussell_background div[data-dw-id] /* erste ebene nach div#event_caroussell_background, aber nicht darunter */
+{
+    width: 298px;
+    position: absolute;
+    top: 19px;
+}
+
+div#event_caroussell_background div[data-dw-status="inactive_small"] {
+    border-right: 1px solid white;
+}
+
+div#event_caroussell_background div[data-dw-status="inactive"],
+div#event_caroussell_background div[data-dw-status="left"],
+div#event_caroussell_background div[data-dw-status="right"] {
+    border-right: 1px solid #8F8474;
+}
+
+div#event_caroussell_background div div.event_caroussell_member_pic {
+    width: 107px;
+    height: 60px;
+    overflow: hidden;
+}
+
+div#event_caroussell_background div div.event_caroussell_member_pic img {
+    height: 60px;
+    max-width: 107px;
+}
+
+div#event_caroussell_background div div.event_caroussell_member_text {
+    width: 171px;
+    height: 40px;
+    position: absolute;
+    left: 107px;
+    top: 0;
+    padding: 10px;
+}
+div#event_caroussell_background div[data-dw-type="intro"] div.event_caroussell_member_text {
+    width: 278px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+
+div#event_caroussell_background div[data-dw-status="active"] div.event_caroussell_member_text {
+    background-color: #3E3E3E;
+}
+
+div#event_caroussell_background div[data-dw-status="inactive"] div.event_caroussell_member_text,
+div#event_caroussell_background div[data-dw-status="left"] div.event_caroussell_member_text,
+div#event_caroussell_background div[data-dw-status="right"] div.event_caroussell_member_text {
+    background-color: #f4f4f4;
+}
+
+div#event_caroussell_background div div.event_caroussell_member_text span.event_caroussell_member_headline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display:block;
+}
+
+div#event_caroussell_background div[data-dw-status="active"] div.event_caroussell_member_text span.event_caroussell_member_headline,
+div#event_caroussell_background div[data-dw-status="active"] div.event_caroussell_member_text span.event_caroussell_member_text {
+    color: white;
+}
+
+div#event_caroussell_background div[data-dw-status="active"] div.event_caroussell_member_text span.event_caroussell_member_text {
+color: #D7D3CD;
+}
+
+div#event_caroussell_background div[data-dw-status="inactive"] div.event_caroussell_member_text span.event_caroussell_member_headline,
+div#event_caroussell_background div[data-dw-status="left"] div.event_caroussell_member_text span.event_caroussell_member_headline,
+div#event_caroussell_background div[data-dw-status="right"] div.event_caroussell_member_text span.event_caroussell_member_headline {
+    color: #3E3E3E;
+}
+
+div#event_caroussell_background div[data-dw-status="inactive"] div.event_caroussell_member_text span.event_caroussell_member_text,
+div#event_caroussell_background div[data-dw-status="left"], div.event_caroussell_member_text span.event_caroussell_member_text,
+div#event_caroussell_background div[data-dw-status="right"], div.event_caroussell_member_text span.event_caroussell_member_text {
+    color: #666666;
+}
+
+div#event_caroussell_background div[data-dw-status="active"]:before {
+    z-index: 99;
+    content: "";
+    position: absolute;
+    top: -19px; /* <-- change value to better position */
+    left: 50%; /* centers the element's left edge */
+    margin-left: -19px; /* <-- moves it back half it's own width */
+    width: 0; /* <-- don't need unit on 0 */
+    height: 0; /* <-- don't need unit on 0 */
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-bottom: 19px solid #3E3E3E; /* <-- change to bottom for up arrow */
+
+}
+
+
+
+div#event_caroussell_background div div.event_caroussell_member_text span.event_caroussell_member_text {
+    /*margin-top: 10px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: block;
+}
+
+
+.carouselLayer {
+    position: absolute; top: 0; left: 0; display: none; opacity: 0;width: 940px;height: 394px;z-index:0;
+}
+
+div ul li div.teaserImg img.imgDefault {
+    width:700px;
+    height:394px;
+}
+
+div ul li div.teaserImg img.imgPanorama {
+    width:940px;
+    height:394px;
+}
+
+div ul li div.teaserContentWrap a.ressource,
+div#event_caroussell_foreground a {
+    display:block;text-decoration: none;
+}
+
+div#event_caroussell_background div#scrollbar {
+    position:absolute;left:0;top:14px;height:5px;width:100%;background-color:#778D9E;
+}
+
+div#mytimeline div#positioner {
+    position:absolute;left:0;top:60px;height:5px;width:100%;background-color:#82B906;
+}
+
+iframe {
+    overflow: hidden;width:700px;height:394px;
+}

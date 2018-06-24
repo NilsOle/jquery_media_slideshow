@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class=""> <!--<![endif]-->
+<head>
+    <link rel="Stylesheet" type="text/css" href="./dist/styles/dw-styles.css">
+    <link rel="Stylesheet" type="text/css" href="./dist/styles/smoothDivScroll.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./dist/js/jquery-ui-1.10.3.custom.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./dist/js/jquery.scrollTo-min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./dist/js/plugin.js" type="text/javascript" charset="utf-8"></script>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<div id="plugin_element"></div>
+<!-- Latest version (3.1.4) of jQuery Mouse Wheel by Brandon Aaron
+     You will find it here: https://github.com/brandonaaron/jquery-mousewheel -->
+<script src="./dist/js/jquery.mousewheel.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- jQuery Kinectic (1.8.2) used for touch scrolling -->
+<!-- https://github.com/davetayls/jquery.kinetic/ -->
+<script src="./dist/js/jquery.kinetic.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- Smooth Div Scroll 1.3 minified-->
+<script src="./dist/js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    String.prototype.replace_all = function (repl_var, repl_val) {
+        var escapeRegExp = function (string) {
+            return string.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
+        };
+        var replace_all = function (input_str, repl_var, repl_val) {
+            return input_str.replace(new RegExp(escapeRegExp(repl_var), 'g'), repl_val);
+        };
+        var input_str = this;
+        return replace_all(input_str, repl_var, repl_val);
+    };
+
+    $(document).ready(function () {
+        var current_location = window.location.href.toString().replace_all('#','');
+        var current_length = current_location.length;
+        var pos_qs_begin = current_location.indexOf('?');
+        var pos_qs_end = current_location.indexOf('&');
+        if (pos_qs_begin !== -1 && pos_qs_end !== -1 && (pos_qs_end - pos_qs_begin - 1) >= 16 && current_length >= (pos_qs_end + 3)) {
+            var current_json_file = current_location.substr(pos_qs_begin + 1, pos_qs_end - pos_qs_begin - 1);
+            var current_language = current_location.substr(pos_qs_end + 1,  current_length-pos_qs_end-1);
+            if (current_json_file.substr(current_json_file.length - 5) === '.json') {
+                $.ajaxSetup({ cache: false });
+                $('#plugin_element').gallery({ json_option_file_url: current_json_file, language: current_language });
+            }
+        }
+    });
+</script>
+</body>
+</html>
