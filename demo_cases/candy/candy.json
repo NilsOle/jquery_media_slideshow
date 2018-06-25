@@ -24,8 +24,8 @@
 "de": "Dies ist ein kleines Beispiel"
     },
     "preview_picture": {
-        "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/001.png",
-"de": "http://localhost/dw_timeline_classic-master/demo_cases/candy/001_german.png"
+        "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/001.png",
+"de": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/001_german.png"
     },
     "mode": "panorama",
     "elements": [],
@@ -42,13 +42,13 @@
 "de": "Formen und Farben"
         },
         "preview_picture": {
-            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/002.png"
+            "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/002.png"
         },
         "elements": [
             {
                 "type": "image",
                 "url": {
-                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/002.png"
+                    "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/002.png"
                 },
                 "topic_header_text": {
                     "multi": "Caption title",
@@ -81,13 +81,13 @@
 "de": "Süßes zum Mitnehmen"
         },
         "preview_picture": {
-            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/003.png"
+            "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/003.png"
         },
         "elements": [
             {
                 "type": "image",
                 "url": {
-                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/003.png"
+                    "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/003.png"
                 },
                 "topic_header_text": {
                     "multi": "Fast food"
@@ -118,13 +118,13 @@
 "de": "Verlier dich im Zucker"
         },
         "preview_picture": {
-            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/004.png"
+            "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/004.png"
         },
         "elements": [
             {
                 "type": "image",
                 "url": {
-                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/004.png"
+                    "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/004.png"
                 },
                 "topic_header_text": {
                     "multi": "Industrial production",
@@ -156,13 +156,13 @@
 "de": "Kreise der Versuchung"
         },
         "preview_picture": {
-            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/005.png"
+            "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/005.png"
         },
         "elements": [
             {
                 "type": "image",
                 "url": {
-                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/005.png"
+                    "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/005.png"
                 },
                 "topic_header_text": {
                     "multi": "Circles of pleasure",
@@ -195,13 +195,13 @@
 "de": "Wähle mit Bedacht"
         },
         "preview_picture": {
-            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/006.png"
+            "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/006.png"
         },
         "elements": [
             {
                 "type": "image",
                 "url": {
-                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/006.png"
+                    "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/006.png"
                 },
                 "topic_header_text": {
                     "multi": "Choose wisely",
@@ -235,13 +235,13 @@
 "de": "Die Extraportion Zucker"
         },
         "preview_picture": {
-            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/007.png"
+            "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/007.png"
         },
         "elements": [
             {
                 "type": "image",
                 "url": {
-                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/007.png"
+                    "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/007.png"
                 },
                 "topic_header_text": {
                     "multi": "Extra sugar addition",
@@ -275,13 +275,13 @@
 "de": "Geschmack ist nicht alles"
         },
         "preview_picture": {
-            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/008.png"
+            "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/008.png"
         },
         "elements": [
             {
                 "type": "image",
                 "url": {
-                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/008.png"
+                    "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/008.png"
                 },
                 "topic_header_text": {
                     "multi": "Taste is not everything",
@@ -315,13 +315,13 @@
 "de": "Mehrere Bilder auf einmal"
         },
         "preview_picture": {
-            "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/009.png"
+            "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/009.png"
         },
         "elements": [
             {
                 "type": "image",
                 "url": {
-                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/009.png"
+                    "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/009.png"
                 },
                 "topic_header_text": {
                     "multi": "Several images at once",
@@ -342,7 +342,7 @@
             {
                 "type": "image",
                 "url": {
-                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/010.png"
+                    "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/010.png"
                 },
                 "topic_header_text": {
                     "multi": "Product strategy",
@@ -363,7 +363,7 @@
             {
                 "type": "image",
                 "url": {
-                    "multi": "http://localhost/dw_timeline_classic-master/demo_cases/candy/011.png"
+                    "multi": "http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/011.png"
                 },
                 "topic_header_text": {
                     "multi": "More donuts",

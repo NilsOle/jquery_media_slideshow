@@ -905,7 +905,8 @@
         },
 
         isValidUrl: function (url) {
-            var regexp_domain_whitelist = ['nilsole\\.net|localhost'];
+	    // edit this whitelist to make sure only accepted content gets loaded! 
+            var regexp_domain_whitelist = ['nilsole\\.net'];
             if (typeof url !== 'string' || (url !== '' && url.match(new RegExp('^data:.+|https{0,1}:\\/\\/[a-zA-Z0-9\.\-]*(' + regexp_domain_whitelist + ')\\/(.*)$', 'g')) === null))
                 return false;
             return true;
