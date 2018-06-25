@@ -29,8 +29,7 @@ The plugin can be used for various purposes, including picture and video slidesh
 |<strong>50 years of DW Akademie.</strong> A slideshow presenting the history of DW Akademie.|<img src="./readme/50yearsofdwakademie.gif"/>|[English version](http://www.dw.com/flashes/html5/timelineakd/index.html?http://www.dw.com/flashes/html5/timelineakd/2015-04-17_akademie50_en.json&en)<br/>[German version](http://www.dw.com/flashes/html5/timelineakd/index.html?http://www.dw.com/flashes/html5/timelineakd/2015-04-17_akademie50_de.json&de)|[English version](http://www.dw.com/en/dw-akademie/50-years/s-101426)<br/>[German version](http://www.dw.com/de/dw-akademie/50-jahre/s-101423)
 |<strong>1945: Ende und Aufbruch.</strong> The slideshow tells the history of Germany after the Second World War and uses the capabilities of in-text links right next to the pictures.|<img src="./readme/endeundneubeginn.gif"/>|[German version](http://www.dw.com/flashes/timelinedaten/timeline_orange/?http://www.dw.com/flashes/timelinedaten/70Jahre2erWeltkrieg.json&de)|[German version](http://www.dw.com/de/themen/1945-ende-und-aufbruch/s-101458)
 
-
-# Future plans
+## Future plans
 
 This project dates back to 2014/2015 and needs some improvements. Such as:
 
@@ -42,4 +41,6 @@ This project dates back to 2014/2015 and needs some improvements. Such as:
 * Add documentation / how-to guide
 * Add further demo cases for demonstrating timeline capabilities 
 
+## Author
 
+Nils Glück ([LinkedIn](https://www.linkedin.com/in/nils-gl%C3%BCck-60a959121) / [GitHub](https://github.com/NilsOle/))
