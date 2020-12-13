@@ -4,8 +4,8 @@ Client-sided media slideshow plugin (carousel), supporting replaceable input fil
 
 ## Live demo
 
-* [English version](http://www.nilsole.net/else/github/jquery_media_slideshow/?http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/candy.json&any)
-* [German version](http://www.nilsole.net/else/github/jquery_media_slideshow/?http://www.nilsole.net/else/github/jquery_media_slideshow/demo_cases/candy/candy.json&de)
+* [English version](https://www.nilsole.net/jms_en/index.html)
+* [German version](https://www.nilsole.net/jms_de/index.html)
 
 <img src="./readme/candy.gif" width="100%"/>
  
